@@ -1,7 +1,6 @@
 package servicios.get;
 import java.io.InputStream;
 
-import javax.swing.text.html.parser.Entity;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;

@@ -58,7 +58,7 @@ Clase
 ```diff
 + Prueba
 ```
-####Tareas Pendientes:
+#### Tareas Pendientes:
 
 * Implementar el observer y crear servicios para probarlo
 * Continuar con la programacion de la lógica

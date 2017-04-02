@@ -10,19 +10,19 @@ import com.mongodb.BasicDBObject;
  * @author Carlos Pereira 
  *
  */
-public class Coordenadas {
+public class Coordenada {
 
 	private double latitud;
 	private double longitud;
 	
-	public Coordenadas()
+	public Coordenada()
 	{
 		
 		latitud = 0;
 		longitud = 0;
 	}
 
-	public Coordenadas(double latitud, double longitud)
+	public Coordenada(double latitud, double longitud)
 	{
 		
 		this.latitud = latitud;

@@ -1,6 +1,6 @@
 package herramientas;
 import java.lang.Math;
-import core.Coordenadas;
+import core.Coordenada;
 
 
 
@@ -39,7 +39,7 @@ public  class GeoMatematicas {
 	 * @param ED
 	 * @return
 	 */
-	public static double DisProyCoor(Coordenadas EO, Coordenadas B, Coordenadas ED){
+	public static double DisProyCoor(Coordenada EO, Coordenada B, Coordenada ED){
 		double DBD,DBO,DOD;
 		DBD = calcDistancia(B , ED);
 		DBO =calcDistancia(B , EO);
@@ -54,7 +54,7 @@ public  class GeoMatematicas {
 	 * @param origen , destino
 	 * @return double
 	 */
-	public static double calcDistancia(Coordenadas origen , Coordenadas destino)
+	public static double calcDistancia(Coordenada origen , Coordenada destino)
 	{
 		double distancia;
 		double lat1=0,lng1=0;

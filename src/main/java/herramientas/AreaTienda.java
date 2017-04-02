@@ -1,6 +1,6 @@
 package herramientas;
 
-import core.Coordenadas;
+import core.Coordenada;
 
 
 public class AreaTienda {
@@ -28,7 +28,7 @@ public class AreaTienda {
 		return distancia;
 	}
 			
-	public boolean estaDentro(Coordenadas vertice,Coordenadas bus)
+	public boolean estaDentro(Coordenada vertice,Coordenada bus)
 	{
 		double temp;
 		temp = GeoMatematicas.calcDistancia(vertice,bus);

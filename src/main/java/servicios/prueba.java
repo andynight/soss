@@ -1,4 +1,4 @@
-package servicios.get;
+package servicios;
 import java.io.InputStream;
 
 import javax.ws.rs.Consumes;

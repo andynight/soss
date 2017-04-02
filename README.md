@@ -58,8 +58,12 @@ Clase
 ```diff
 + Prueba
 ```
+####Tareas Pendientes:
 
-
+* Implementar el observer y crear servicios para probarlo
+* Continuar con la programacion de la lógica
+* Definir Bases de datos
+* Evaluar campos de las clases y sus diferencias con los de la Base de datos
 
 
 

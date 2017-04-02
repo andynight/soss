@@ -3,13 +3,15 @@ package core;
 import java.util.Date;
 import java.util.HashMap;
 
+import interfaces.Observer;
+
 /**
  * Es la persona que compra o utiliza los servicios de las tiendas
  * 
  * @author AndresPC
  *
  */
-public class Cliente extends Persona {
+public class Cliente extends Persona implements Observer {
 	
 	private Coordenada ubicacion;
 	private HashMap<Producto, Integer> pfrec;// productos frecuentes
@@ -21,6 +23,12 @@ public class Cliente extends Persona {
 		this.ubicacion = ubicacion;
 		this.pfrec = pfrec;
 		this.tfrec = tfrec;
+	}
+
+	@Override
+	public void Update() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	
